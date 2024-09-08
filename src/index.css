@@ -1,0 +1,25 @@
+body {
+	display: flex;
+	justify-content: center;
+	background: #da321c;
+}
+
+.search {
+	width: 300px;
+	height: 30px;
+}
+
+.options {
+	position: relative;
+	bottom: 16px;
+	list-style: none;
+	border: 1px solid;
+	font-family: sans-serif;
+}
+
+.options li {
+	margin-top: 5px;
+	color: #fff;
+	height: 30px;
+	width: 200px;
+}
